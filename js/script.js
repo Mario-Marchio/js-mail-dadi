@@ -7,7 +7,7 @@ const userEmail = prompt(`inserisci la tua email`, `mario@gmail.com`)
 console.log(userEmail);
 for( i = 0 ; i = email.length ; i++){
     if(userEmail===email[i]){
-        allert(`benvenuto`)
+        console.log(`benvenuto`)
     }else {
         console.log(`non puoi accedere`);
     }
