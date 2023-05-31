@@ -5,10 +5,27 @@ console.log(email);
 
 const userEmail = prompt(`inserisci la tua email`, `mario@gmail.com`)
 console.log(userEmail);
-for( i = 0 ; i = email.length ; i++){
+for( i = 0 ; i < email.length ; i++){
     if(userEmail===email[i]){
         console.log(`benvenuto`)
     }else {
         console.log(`non puoi accedere`);
     }
 }
+
+
+// let dado1 = 0 ;
+
+// let dado2 = 0 ;
+
+// dado1 = Math.floor(Math.random() * 6) + 1 ;
+
+// dado2 = Math.floor(Math.random() * 6) + 1 ;
+
+// console.log(dado1);
+
+// console.log(dado2);
+
+// if( dado1 > dado2 ){
+//     console.log(`hai vinto`);
+// }else if (dado)
